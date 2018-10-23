@@ -1,0 +1,23 @@
+### Python3 ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+env/
+
+### VisualStudioCode ###
+.vscode/*
