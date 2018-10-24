@@ -37,8 +37,8 @@ class Products(Resource):
         cart.append(item)
         return make_response(jsonify({
             'Status': 'Ok',
-            'Message': "Post Success",
-            'My Cart': cart
+            'Message': "product added Successfully",
+            'My Cart': cart[-1]
         }), 201)
 
 
@@ -83,7 +83,7 @@ class SaleOrder(Resource):
         return make_response(jsonify({
             'Status': 'Ok',
             'Message': "Post Success",
-            'My Cart': cart
+            'My Cart': cart[-1]
         }), 201)
 
 
