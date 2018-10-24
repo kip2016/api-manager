@@ -24,7 +24,7 @@ class Users():
         users_dict[email] = self.oneuser_dict
         return {"message":"{} registered successfully".format(email)}
 
-    def verify_password(self,password,email):
+    def verify_password(self,password,email,role):
        
         if email in users_dict:
             # result = check_password_hash(users_dict[email]["password"], password)
